@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+* {
+	color: teal;
+}
+p {
+	color: forestgreen;
+	color: rgb(3, 41, 2);
+}
+span {
+	color: orangered;
+}
+.title {
+	color: rgb(0, 13, 128);
+}
+.gray {
+	color: rgb(128, 0, 0);
+}
+#crimson {
+	color: crimson;
+}
+.block {
+	color: rgb(0, 102, 255);
+}
+span.block {
+	color: blue;
+}
+.block.yellow {
+	color: yellow;
+}
+p span {
+	color: red;
+}
+h2 {
+	color: rgb(122, 58, 12);
+}
+.title2 span {
+	color: seagreen;
+}
+.menu {
+	color: purple;
+}
+.menu .menu__link {
+	color: sandybrown;
+}
+.menu .menu__link.lost {
+	color: rgb(141, 187, 86);
+}
+.way__link1 {
+	color: purple;
+}
+.text > span {
+	color: sandybrown;
+}
+.text__item + p {
+	color: chartreuse;
+}
+.text__item + * {
+	color: deeppink;
+}
+.text__block ~ p {
+	color: lime;
+}
