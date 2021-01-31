@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+@font-face {
+	font-family: 'Rapsodie';
+	src: url('../fonts/Rapsodie-SemiBold.woff2') format('woff2'),
+		 url('../fonts/Rapsodie-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rapsodie';
+	src: url('../fonts/Rapsodie-BoldItalic.woff2') format('woff2'),
+		 url('../fonts/Rapsodie-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+
 *,
 *::before,
 *::after {
@@ -27,65 +53,117 @@ h6 {
 img {
 	vertical-align: top;
 }
+body {
+	color: #10375C;
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
 
-* {
-	color: teal;
-}
-p {
-	color: forestgreen;
-	color: rgb(3, 41, 2);
-}
-span {
-	color: orangered;
-}
-.title {
-	color: rgb(0, 13, 128);
-}
-.gray {
-	color: rgb(128, 0, 0);
-}
-#crimson {
-	color: crimson;
-}
-.block {
-	color: rgb(0, 102, 255);
-}
-span.block {
-	color: blue;
-}
-.block.yellow {
-	color: yellow;
-}
-p span {
-	color: red;
-}
-h2 {
-	color: rgb(122, 58, 12);
-}
-.title2 span {
-	color: seagreen;
+.logo{
+	font-family: lora;
+	font-size: 24px;
+	font-weight: 700;
+	color: #10375C;
 }
 .menu {
-	color: purple;
+	text-align: center;
+	word-spacing: 40px;
+	white-space: nowrap;
+	font-family: lato;
+	font-weight: 700;
 }
-.menu .menu__link {
-	color: sandybrown;
+.menu1 {color: darkgreen;}
+.menu2 {color: darkmagenta;}
+.menu3 {color: darkorange;}
+.menu4 {color: deeppink;}
+.menu5 {color: dodgerblue;}
+.menu6 {color: gold;
 }
-.menu .menu__link.lost {
-	color: rgb(141, 187, 86);
+
+h1{
+	font-size: 52px;
+	font-weight: 700;
+	font-family: lora;
+	text-shadow: 10px -15px 5px #DD2C00;
+	line-height: 200%;
 }
-.way__link1 {
-	color: purple;
+h1 span{
+	color: #DD2C00;
+	text-shadow: -10px 15px 5px #10375C;
 }
-.text > span {
-	color: sandybrown;
+
+
+.text1{
+	font-size: 20px;
+	color: #222831;
+	text-decoration: underline;
 }
-.text__item + p {
-	color: rgb(0, 255, 21);
+.text2{
+	font-size: 20px;
+	color: #6A6A6A;
+	text-decoration: line-through;
+	letter-spacing: 5px;
 }
-.text__item + * {
-	color: deeppink;
+.text2 span{
+	color: red;
 }
-.text__block ~ p {
-	color: lime;
+h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: lora;
+	text-shadow: 5px 5px 5px brown;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-style: oblique;
+	text-align: center;
+}
+.text3{
+	font-family: 'Rapsodie';
+	font-size: 50px;
+	font-style: italic;
+	color: rgb(145, 255, 0);
+	letter-spacing: 5px;
+	text-indent: 60px;
+}
+h3{
+	text-transform: capitalize;
+	color: crimson;
+	font-weight: 700;
+	font-size: 32px;
+	font-style: italic;
+	font-family: 'Press Start 2P', cursive;
+	text-align: right;
+}
+.text4{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 25px;
+	text-shadow:5px 5px 5px #14ff27f3;
+}
+.title2{
+	font-family: 'Monoton', cursive;
+	color: orangered;
+	text-shadow: none;
+	font-weight: normal;
+}
+.text5{
+	color: crimson;
+	font-size: 20px;
+	text-transform: lowercase;
+	line-height: 150%;
+	font-family: 'Aclonica', sans-serif;
+	text-shadow:11px 10px 1px rgba(139, 0, 109, 0.452);
+}
+footer{
+	font-family: lora;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: overline;
+	font-weight: 700;
+}
+footer .footer ul{
+	text-decoration: overline white;
+	line-height: 200%;
+	font-weight: normal;
+	color: tomato;
+	font-size: 15px;
 }
