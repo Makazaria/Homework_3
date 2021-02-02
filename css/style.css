@@ -1,28 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap&subset=cyrillic-ext');
-@import url('https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset=cyrillic-ext');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-
-@font-face {
-	font-family: 'Rapsodie';
-	src: url('../fonts/Rapsodie-SemiBold.woff2') format('woff2'),
-		 url('../fonts/Rapsodie-SemiBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Rapsodie';
-	src: url('../fonts/Rapsodie-BoldItalic.woff2') format('woff2'),
-		 url('../fonts/Rapsodie-BoldItalic.woff') format('woff');
-	font-weight: bold;
-	font-style: italic;
-	font-display: swap;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 *,
 *::before,
@@ -30,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 }
 li {
 	list-style: none;
@@ -54,116 +31,192 @@ img {
 	vertical-align: top;
 }
 body {
-	color: #10375C;
 	line-height: 1;
-	font-family: "Lato", sans-serif;
+	color: #111;
+	font-family: 'Libre Baskerville', serif;
 }
 
-.logo{
-	font-family: lora;
-	font-size: 24px;
-	font-weight: 700;
-	color: #10375C;
-}
-.menu {
-	text-align: center;
-	word-spacing: 40px;
+.header__menu{
 	white-space: nowrap;
-	font-family: lato;
-	font-weight: 700;
+	width: 100%;
+	margin-left: auto;
+	margin: auto;
 }
-.menu1 {color: darkgreen;}
-.menu2 {color: darkmagenta;}
-.menu3 {color: darkorange;}
-.menu4 {color: deeppink;}
-.menu5 {color: dodgerblue;}
-.menu6 {color: gold;
+div.menu__icon{
+	width: 30%;
+	padding: 20px 10px 150px 50px;
+	display: inline-block;
 }
-
-h1{
-	font-size: 52px;
-	font-weight: 700;
-	font-family: lora;
-	text-shadow: 10px -15px 5px #DD2C00;
-	line-height: 200%;
-}
-h1 span{
-	color: #DD2C00;
-	text-shadow: -10px 15px 5px #10375C;
+.menu__icon img{
+	width: 18px;
+	margin-left: 15px;
 }
 
+div.logo{
+	width: 40%;
+	display: inline-block;
+}
 
-.text1{
-	font-size: 20px;
-	color: #222831;
-	text-decoration: underline;
+.logo img{
+width: 100%;
+text-align: center;
 }
-.text2{
-	font-size: 20px;
-	color: #6A6A6A;
-	text-decoration: line-through;
-	letter-spacing: 5px;
-}
-.text2 span{
-	color: red;
-}
-h2{
-	font-size: 40px;
-	font-weight: 700;
-	font-family: lora;
-	text-shadow: 5px 5px 5px brown;
-	letter-spacing: 10px;
+
+div.lang{
+	display: inline-block;
 	text-transform: uppercase;
-	font-style: oblique;
+	width: 200px;
+	padding: 20px 10px 150px 80px;
+}
+.lang p{
 	text-align: center;
 }
-.text3{
-	font-family: 'Rapsodie';
-	font-size: 50px;
-	font-style: italic;
-	color: rgb(145, 255, 0);
-	letter-spacing: 5px;
-	text-indent: 60px;
+.lang1{
+	color: #111;
 }
-h3{
-	text-transform: capitalize;
-	color: crimson;
-	font-weight: 700;
-	font-size: 32px;
-	font-style: italic;
-	font-family: 'Press Start 2P', cursive;
-	text-align: right;
+.lang2{
+	color: grey;
 }
-.text4{
-	font-family: 'Orbitron', sans-serif;
-	font-size: 25px;
-	text-shadow:5px 5px 5px #14ff27f3;
-}
-.title2{
-	font-family: 'Monoton', cursive;
-	color: orangered;
-	text-shadow: none;
-	font-weight: normal;
-}
-.text5{
-	color: crimson;
-	font-size: 20px;
-	text-transform: lowercase;
-	line-height: 150%;
-	font-family: 'Aclonica', sans-serif;
-	text-shadow:11px 10px 1px rgba(139, 0, 109, 0.452);
-}
-footer{
-	font-family: lora;
-	font-size: 20px;
+.menu__list{
+	text-transform: uppercase;
 	text-align: center;
-	text-decoration: overline;
-	font-weight: 700;
+	word-spacing: 5px;
+	
 }
-footer .footer ul{
-	text-decoration: overline white;
-	line-height: 200%;
-	font-weight: normal;
-	color: tomato;
+.menu__list li{
+	display: inline-block;
+	vertical-align: bottom;
 	font-size: 15px;
+	font-family: Neutra,Arial,sans-serif;
+	
+}
+.menu__link{
+	color: #111;
+	padding-bottom: 0px;
+
+}
+.menu__link img{
+	width: 25px;
+}
+h1{
+	color: #141414;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+}
+div.text{
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+	
+}
+.text p{
+text-align: justify;
+font-size: 17px;
+font-family: "PT Serif";
+line-height: 1.71;
+width: 100%;
+margin: 20px auto 40px auto;
+}
+.block__main{
+	width: 100%;
+	padding: 0% 15% auto 15%;
+	letter-spacing: 10px;
+text-align: center;
+
+
+
+}
+
+.block{
+	width: 28%;
+	text-align: center;
+	display: inline-block;
+	letter-spacing: normal;
+	margin-top: 0px;
+	vertical-align: top;
+}
+.block a{
+	display: block;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.block img{
+	width: 100%;
+	
+}
+
+.block p{
+	margin-top: 15px;
+	
+}
+.link1{
+	text-transform: uppercase;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	letter-spacing: 3px;
+	color: #111;;
+}
+.link2{
+	font-size: 20px;
+	line-height: 32px;
+	color:#bb8f56;
+}
+.more{
+	font-family: Neutra,Arial,sans-serif;
+	text-align: center;
+	padding: 50px;
+	color: #141414;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+.footer{
+	background-color: black;
+	color: white;
+	padding-bottom: 15px;
+}
+.footer-menu{
+	width: 100%;
+	text-transform: uppercase;
+	font-family: Neutra,Arial,sans-serif;
+	text-align: center;
+	padding: 10px;
+	word-spacing: 5px;
+}
+
+.footer li{
+	display: inline-block;
+}
+.footer li a{
+	color: white;
+	font-size: 15px;
+}
+.footer1{
+	display: inline-block;
+	padding-left: 10%;
+	width: 30%;
+}
+.footer2{
+	margin-bottom: 20px;
+}
+.footer .menu__icon{
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+
+}
+.footer .menu__icon img{
+	filter: invert(60%);
+}
+.footer p{
+	font-family: "Roboto",sans-serif;
+	font-size: 12px;
+	color: #777;
+	max-width: 50%;
+	margin: 10px;
 }
