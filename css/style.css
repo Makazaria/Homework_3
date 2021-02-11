@@ -48,10 +48,10 @@ div.header{
 }
 .head3{
 	display: inline-block;
-width: 33%;
+width: 40%;
 	white-space: nowrap;
-	margin: 5px 0px 10px 50px;
-	padding-left: 45px;
+	margin: 5px 0px 0px 0px;
+	padding-left: 140px;
 	vertical-align: top;
 }
 .head1{
