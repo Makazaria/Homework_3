@@ -102,7 +102,7 @@ textarea {
 	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
 }
 .header__menu{
-	width: 74%;
+	width: 80%;
 	margin: 0 auto;
 	font-size: 0;
 }
@@ -296,7 +296,6 @@ cursor: pointer;
 .checkbox__label a{
 	color: #64B369;
 	display: inline-block;
-	margin-left: 10px;
 }
 
 
