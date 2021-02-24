@@ -5,146 +5,104 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.css">
-		<title>Homework_10</title>
+		<title>Homework_11</title>
 	</head>
 
 	<body>
 		<header class="header">
-			<div class="header__menu">
-				<a href="#" class="logo">Uzbeklar.net</a>
-				<nav class="header__nav">
-					<ul class="nav__list">
-						<li><a href="" class="nav__link">Фильмы</a></li>
-						<li><a href="" class="nav__link">Клипы</a></li>
-						<li><a href="" class="nav__link">Музыка</a></li>
+			<div class="header__container">
+				<div class="header__logo"><a class="logo" href="#">Frispes.</a></div>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li><a class="menu__link" href="#">Home</a></li>
+						<li><a class="menu__link" href="#">Workspace</a></li>
+						<li><a class="menu__link" href="#">Service</a></li>
+						<li><a class="menu__link" href="#">Events</a></li>
+						<li><a class="menu__link" href="#">Reviews</a></li>
+						<li><a class="menu__link" href="#">Contact Us</a></li>
 					</ul>
 				</nav>
-				<form class="form" action="#">
-					<div class="form__line">
-						<div class="form__input">
-							<input type="text" class="search" placeholder="Поиск...">
-						</div>
-					</div>
-				</form>
-				<div class="heart">
-					<img src="img/icon_3.svg" alt="">
+				<div class="header__auth">
+					<div class="header__log-in"><a class="log-in" href="#">Log In</a></div>
+					<div class="header__sign-up"><a class="sign-up" href="#">Sign Up</a></div>
 				</div>
-				<div class="vector3"></div>
 			</div>
-
 		</header>
 
 		<main class="main">
-			<div class="block">
-				<a href="#input">Вход</a>
+			<div class="intro">
+				<div class="intro__header text">Introducing</div>
+				<div class="intro__body">
+					<h1 class="intro__title"><span>Revolutionary</span> co-working space to realize your innovation</h1>
+					<div class="intro__text text">In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</div>
+				</div>
 			</div>
-			<h1 id="reg" class="heading">Регистрация</h1>
-			<form class="form__main" action="#">
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="username" required minlength="3" type="text" class="input" placeholder="Имя*">
+			<div class="main__container-1">
+				<div class="indicators">
+					<div class="indicators__block">
+						<div class="indicators__icon"><img src="img/image_1.svg" alt=""></div>
+						<div class="indicators__num">500+</div>
+						<div class="indicators__text">Meeting rooms</div>
+					</div>
+					<div class="indicators__block">
+						<div class="indicators__icon"><img src="img/image_2.svg" alt=""></div>
+						<div class="indicators__num">100+</div>
+						<div class="indicators__text">Event spaces</div>
+					</div>
+					<div class="indicators__block">
+						<div class="indicators__icon"><img src="img/image_3.svg" alt=""></div>
+						<div class="indicators__num">60+</div>
+						<div class="indicators__text">Countries</div>
+					</div>
+					<div class="indicators__block">
+						<div class="indicators__icon"><img src="img/image_4.svg" alt=""></div>
+						<div class="indicators__num">500 Mbps</div>
+						<div class="indicators__text">Internet speed</div>
+					</div>
+					<div class="indicators__block">
+						<div class="indicators__icon"><img src="img/image_5.svg" alt=""></div>
+						<div class="indicators__num">5K+</div>
+						<div class="indicators__text">Startup mentors</div>
+					</div>
+					<div class="indicators__block">
+						<div class="indicators__icon"><img src="img/image_6.svg" alt=""></div>
+						<div class="indicators__num">200+</div>
+						<div class="indicators__text">Communities inside</div>
 					</div>
 				</div>
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="surname" required minlength="3" type="text" class="input" placeholder="Фамилия*">
+				<div class="why">
+					<div class="why__header text">Why Frispes</div>
+					<div class="why__body">
+						<div class="why__title title">We revolutionize your workspace</div>
+						<div class="why__text text">With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people</div>
 					</div>
 				</div>
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="login" required minlength="6" type="text" class="input" placeholder="Логин*">
-					</div>
-				</div>
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="email" required minlength="6" type="email" class="input" placeholder="EMail*">
-					</div>
-				</div>
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="password" required minlength="6" type="password" class="input" placeholder="Пароль*">
-					</div>
-				</div>
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="repeat__password" required minlength="6" type="password" class="input" placeholder="Повторите пароль*">
-					</div>
-				</div>
-				<div class="form__line-radio">
-					<div class="form__input-radio">
-						<div class="radio">
-							<input checked id="male" name="gender" type="radio" class="radio__input">
-							<label class="radio__label" for="male">Мужчина</label>
-						</div>
-					</div>
-					<div class="form__input-radio">
-						<div class="radio">
-							<input id="female" name="gender" type="radio" class="radio__input">
-							<label class="radio__label" for="female">Женщина</label>
-						</div>
-					</div>
-				</div>
-				<div class="form__line-checkbox">
-					<div class="form__input-checkbox">
-						<div class="checkbox">
-							<input required id="terms" name="terms" type="checkbox" class="checkbox__input">
-							<label class="checkbox__label" for="terms">Я согласен с <a href="#">Условия и правила</a></label>
-						</div>
-					</div>
-				</div>
-				<div class="button"><button class="button" type="submit">Регистрация</button></div>
-			</form>
-			<div class="account">
-				<span>У вас есть аккаунт? <a href="#input">Войти</a></span>
 			</div>
-
-			<div class="line"></div>
-
-			<h2 id="input" class="heading">Вход</h2>
-
-			<form class="form__main" action="#">
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="email" required minlength="6" type="email" class="input" placeholder="Почта*">
-					</div>
+			<div class="main__container-2 who-uses">
+				<div class="who-uses__title title title_blue">Who uses Frispes?</div>
+				<div class="who-uses__text">Big brands, small bussiness, new startuo and inividuals</div>
+				<div class="who-uses__list">
+					<ul class="who-uses__list">
+						<li><a class="link" href="#"><img src="img/image_1.jpg" alt=""></a></li>
+						<li><a class="link" href="#"><img src="img/image_2.jpg" alt=""></a></li>
+						<li><a class="link" href="#"><img src="img/image_3.jpg" alt=""></a></li>
+						<li><a class="link" href="#"><img src="img/image_4.jpg" alt=""></a></li>
+						<li><a class="link" href="#"><img src="img/image_5.jpg" alt=""></a></li>
+						<li><a class="link" href="#"><img src="img/image_6.jpg" alt=""></a></li>
+					</ul>
 				</div>
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="password" required minlength="6" type="password" class="input" placeholder="Пароль*">
-					</div>
-				</div>
-				<div class="form__line-checkbox">
-					<div class="form__input-checkbox">
-						<div class="checkbox__remember">
-							<input id="remember" name="remember" type="checkbox" class="checkbox__input">
-							<label class="checkbox__label" for="remember">Запонить меня </label>
-						</div>
-						<a class="input__remember" href="#">Забыли пароль?</a>
-					</div>
-				</div>
-				<div class="button"><button class="button" type="submit">Войти</button></div>
-			</form>
-			<div class="account">
-				<span>У вас нет аккаунта? <a href="#reg">Регистрация</a></span>
+
+
 			</div>
-			<div class="line"></div>
-
-			<h2 class="heading">Восстановление пароля</h2>
-			<div class="recovery">Введите Email, на него будет выслан новый пароль</div>
-			<form class="form__main" action="#">
-				<div class="form__line">
-					<div class="form__input-main">
-						<input name="email" required minlength="6" type="email" class="input" placeholder="Почта*">
-					</div>
-				</div>
-				<a href="#input" class="return">Вернуться в форму авторизации</a>
-				<div class="button"><button class="button" type="submit">Отправить</button></div>
-			</form>
-			<div class="text">* Если вы не получили письмо с паролем,
-				проверьте папку Спам.</div>
-				<div class="account">
-					<span>У вас нет аккаунта? <a href="#reg">Регистрация</a></span>
-				</div>
+<div class="main__container-3">
+	<div class="block">
+		<a class="block__image" href="#"><img src="img/image_7.jpg" alt=""></a>
+		<div class="block__body">
+			<div class="block__title">Does productivity increase when working remotely ? </div>
+			<div class="block__author">Franck Martin</div>
+		</div>
+	</div>
+</div>
 		</main>
 
 		<footer class="footer">
